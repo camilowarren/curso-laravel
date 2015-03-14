@@ -5,7 +5,6 @@ Route::get('/', function() {
 });
 
 
-
 Route::controller('personal', 'PersonalController');
 Route::controller('clase', 'Clase2Controller');
 
