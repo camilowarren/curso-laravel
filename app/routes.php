@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function() {
-    return View::make('tabla');
+    return View::make('ejemplo');
 });
 
 
