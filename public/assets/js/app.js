@@ -23,14 +23,18 @@ managerScreen = {
     },
     alertify: function () {
         alertify.alert("Alertify dice hola");
-        alertify.log("Notificacion","Success",10000);
-        alertify.log("Notificacion","Error",7000);
-        alertify.log("Notificacion","Success",8000);
-        alertify.log("Notificacion","Success",5000);
-        alertify.log("Notificacion","Error",2000);
-        
-        
+        alertify.log("Notificacion", "Success", 10000);
+        alertify.log("Notificacion", "Error", 7000);
+        alertify.log("Notificacion", "Success", 8000);
+        alertify.log("Notificacion", "Success", 5000);
+        alertify.log("Notificacion", "Error", 2000);
+
+
+    },
+    pickadate: function () {
+        $('.datepicker').pickadate();
     }
+
 };
 var ms = managerScreen;
 

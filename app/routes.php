@@ -1,7 +1,10 @@
 <?php
 
 Route::get('/', function() {
-    return View::make('ejemplo');
+    return View::make('perfil.perfil')
+                    ->with("nombre", "Camilo")
+                    ->with("edad", "23");
+    
 });
 
 
